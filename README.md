@@ -1,50 +1,30 @@
-#🛡️ AV Detector Improved
+# AV Detector Improved 🛡️
 
-This C# program identifies running antivirus software on a Windows system using two detection methods:
+A simple C# tool that detects running antivirus software on Windows systems using:
 
-🧠 Process API
+- **Process API** 🧠
+- **WMI (Windows Management Instrumentation)** 🔍
 
-🔍 Windows Management Instrumentation (WMI)
+---
 
-🚀 Features
+## Features ⚙️
 
-Dual-method scanning for better accuracy
+- Dual detection methods
+- External AV list support (`av_list.txt`)
+- Clear console output
 
-Uses an external av_list.txt if available
+---
 
-Provides informative console output
+## Files 📂
 
-📂 Files
+- `Program.cs` — Main detection script
+- `av_list.txt` *(optional)* — Custom antivirus process list
 
-Program.cs — The main C# detection script
+---
 
-av_list.txt (optional) — List of antivirus process names to match
+## How to Use 🚀
 
-⚙️ How to Use
+**1. Compile the code:**
 
-🛠️ Compile the code:
-
+```bash
 csc Program.cs
-
-▶️ Run the executable:
-
-Program.exe
-
-✅ View AV detection results in the console
-
-📦 Example Output
-
-[+] Antivirus check is running ..
---AV Found (Process API): MsMpEng.exe
---AV Found (WMI): MsMpEng.exe
-
-📌 Notes
-
-The tool is designed for educational and authorized testing use
-
-Easily extensible for more advanced AV evasion or detection techniques
-
-📝 License
-
-MIT License — free to use, modify, and distribute.
-
