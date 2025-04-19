@@ -1,4 +1,4 @@
-# AV Detector Improved 🛡️
+# AV Detector 🛡️
 
 A simple C# tool that detects running antivirus software on Windows systems using:
 
